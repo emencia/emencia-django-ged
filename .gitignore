@@ -3,7 +3,7 @@
 *~
 *.pyc
 .installed.cfg
-emencia.django.countries.egg-info/*
+emencia.django.ged.egg-info/*
 lib/*
 include/*
 bin/*
