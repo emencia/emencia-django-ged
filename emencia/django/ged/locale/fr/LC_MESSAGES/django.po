@@ -1,0 +1,90 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: emencia.django.ged\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-02-19 16:56+0100\n"
+"PO-Revision-Date: 2010-02-19 16:59+0100\n"
+"Last-Translator: Fantomas <Fantomas42@gmail.com>\n"
+"Language-Team: fr <jfache@emencia.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: models.py:12
+msgid "name"
+msgstr "nom"
+
+#: models.py:15
+#: models.py:33
+#: models.py:53
+msgid "path"
+msgstr "chemin"
+
+#: models.py:16
+#: models.py:56
+msgid "creator"
+msgstr "créateur"
+
+#: models.py:17
+#: models.py:57
+msgid "creation_time"
+msgstr "date de création"
+
+#: models.py:34
+msgid "paths"
+msgstr "chemins"
+
+#: models.py:36
+msgid "draft"
+msgstr "brouillon"
+
+#: models.py:37
+msgid "published"
+msgstr "publié"
+
+#: models.py:38
+msgid "rejected"
+msgstr "rejeté"
+
+#: models.py:43
+msgid "title"
+msgstr "titre"
+
+#: models.py:46
+#: models.py:91
+#: models.py:92
+msgid "document"
+msgstr "document"
+
+#: models.py:47
+msgid "description"
+msgstr "description"
+
+#: models.py:49
+msgid "language"
+msgstr "langage"
+
+#: models.py:51
+msgid "status"
+msgstr "statut"
+
+#: models.py:54
+msgid "tags"
+msgstr "tags"
+
+#: models.py:58
+msgid "modifier"
+msgstr "modifieur"
+
+#: models.py:59
+msgid "modification_time"
+msgstr "date de modification"
+
