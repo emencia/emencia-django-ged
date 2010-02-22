@@ -30,8 +30,8 @@ class Path(models.Model):
 
     class Meta:
         ordering = ('name',)
-        verbose_name = _('path')
-        verbose_name_plural = _('paths')
+        verbose_name = _('path model')
+        verbose_name_plural = _('path models')
 
 DOCUMENT_STATUS = ((0, _('draft')),
                    (1, _('published')),
@@ -50,7 +50,7 @@ class Document(models.Model):
                                 choices=settings.LANGUAGES)
     status = models.IntegerField(_('status'), choices=DOCUMENT_STATUS)
     path = models.ForeignKey(Path, blank=True, null=True,
-                             verbose_name=_('path'))
+                             verbose_name=_('path model'))
     tags = TagField(_('tags'))
     
     creator = models.ForeignKey(User, verbose_name=_('creator'), related_name='creator')

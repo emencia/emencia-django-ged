@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: emencia.django.ged\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-02-19 16:56+0100\n"
-"PO-Revision-Date: 2010-02-19 16:59+0100\n"
+"POT-Creation-Date: 2010-02-22 12:15+0100\n"
+"PO-Revision-Date: 2010-02-22 12:16+0100\n"
 "Last-Translator: Fantomas <Fantomas42@gmail.com>\n"
 "Language-Team: fr <jfache@emencia.com>\n"
 "MIME-Version: 1.0\n"
@@ -23,10 +23,8 @@ msgid "name"
 msgstr "nom"
 
 #: models.py:15
-#: models.py:33
-#: models.py:53
 msgid "path"
-msgstr "chemin"
+msgstr "dossier"
 
 #: models.py:16
 #: models.py:56
@@ -38,9 +36,14 @@ msgstr "créateur"
 msgid "creation_time"
 msgstr "date de création"
 
+#: models.py:33
+#: models.py:53
+msgid "path model"
+msgstr "dossier"
+
 #: models.py:34
-msgid "paths"
-msgstr "chemins"
+msgid "path models"
+msgstr "dossiers"
 
 #: models.py:36
 msgid "draft"
